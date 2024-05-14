@@ -2,7 +2,7 @@
 
 echo "
 
-"Ubuntu 20.04 sources list"
+# Ubuntu 20.04 sources list
 
 deb http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse 
 deb-src http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse 
