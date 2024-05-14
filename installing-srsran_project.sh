@@ -42,6 +42,8 @@ echo "Moving libs to enable use from any place..."
 
 sudo mv /usr/local/lib/* /usr/lib/
 
+cd ../../
+
 echo "Enabling performance configurations..."
 
 sudo srsRAN_Project/scripts/srsran_performance

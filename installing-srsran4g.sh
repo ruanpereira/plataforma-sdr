@@ -44,4 +44,6 @@ sudo mv /usr/local/lib/* /usr/lib/
 
 sudo srsran_install_configs.sh user
 
+cd ../../
+
 echo "Installation finished!!!!!! Test with sudo srsepc, sudo srsenb or sudo srsue"
