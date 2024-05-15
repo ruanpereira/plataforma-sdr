@@ -46,4 +46,8 @@ sudo srsran_install_configs.sh user
 
 cd ../../
 
+echo "
+Remember to edit enb.conf, in the expert part of the configuration file, set to 120000 or higher
+"
+
 echo "Installation finished!!!!!! Test with sudo srsepc, sudo srsenb or sudo srsue"
