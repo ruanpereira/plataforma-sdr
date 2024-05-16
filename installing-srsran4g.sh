@@ -6,9 +6,13 @@ sudo apt install build-essential cmake libfftw3-dev libmbedtls-dev libboost-prog
 
 sudo apt install libdw-dev libpcsclite-dev
 
+echo "Installing images of usrp hardware for UHD lib..."
+
 sudo apt install uhd-host=3.15.0.0-2build5 libuhd3.15.0 libuhd-dev=3.15.0.0-2build5
 
-echo "Installing images of usrp hardware for UHD lib..."
+echo "Ensuring that the correct version is installed..."
+
+sudo apt remove uhd-host=4.1.0.5-3 libuhd4.1.0 
 
 sudo uhd_images_downloader
 
