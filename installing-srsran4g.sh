@@ -12,7 +12,9 @@ sudo apt install uhd-host=3.15.0.0-2build5 libuhd3.15.0 libuhd-dev=3.15.0.0-2bui
 
 echo "Ensuring that the correct version is installed..."
 
-sudo apt remove uhd-host=4.1.0.5-3 libuhd4.1.0 
+sudo apt remove uhd-host=4.1.0.5-3 libuhd4.1.0
+
+sudo apt install uhd-host=3.15.0.0-2build5 libuhd3.15.0 libuhd-dev=3.15.0.0-2build5 
 
 sudo uhd_images_downloader
 
